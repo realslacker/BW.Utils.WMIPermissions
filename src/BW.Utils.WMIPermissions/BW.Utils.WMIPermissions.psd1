@@ -15,7 +15,7 @@ RootModule = 'BW.Utils.WMIPermissions.psm1'
 ModuleVersion = '20.10.13.1124'
 
 # Supported PSEditions
-# CompatiblePSEditions = 'Desktop'
+# CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
 GUID = '0cf0ed7f-8db2-48ba-9cdc-4b2c34aec465'
