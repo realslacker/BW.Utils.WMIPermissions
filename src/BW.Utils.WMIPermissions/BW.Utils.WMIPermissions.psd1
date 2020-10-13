@@ -15,7 +15,7 @@ RootModule = 'BW.Utils.WMIPermissions.psm1'
 ModuleVersion = '20.10.13.1124'
 
 # Supported PSEditions
-# CompatiblePSEditions = @()
+CompatiblePSEditions = 'Desktop'
 
 # ID used to uniquely identify this module
 GUID = '0cf0ed7f-8db2-48ba-9cdc-4b2c34aec465'
@@ -95,7 +95,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'WMI', 'ACL', 'Permissions', 'Remote Access'
+        Tags = 'WMI', 'ACL', 'Permissions', 'Remote'
 
         # A URL to the license for this module.
         LicenseUri = 'https://raw.githubusercontent.com/realslacker/BW.Utils.WMIPermissions/main/LICENSE'
