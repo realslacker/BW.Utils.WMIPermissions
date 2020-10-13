@@ -15,7 +15,7 @@ RootModule = 'BW.Utils.WMIPermissions.psm1'
 ModuleVersion = '20.10.13.1124'
 
 # Supported PSEditions
-CompatiblePSEditions = 'Desktop'
+# CompatiblePSEditions = 'Desktop'
 
 # ID used to uniquely identify this module
 GUID = '0cf0ed7f-8db2-48ba-9cdc-4b2c34aec465'
@@ -33,7 +33,7 @@ Copyright = '(c) Shannon Graybrook'
 Description = 'Utility module to modify WMI Namespace permissions.'
 
 # Minimum version of the Windows PowerShell engine required by this module
-PowerShellVersion = 5.1
+PowerShellVersion = '5.1'
 
 # Name of the Windows PowerShell host required by this module
 # PowerShellHostName = ''
